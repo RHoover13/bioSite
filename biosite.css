@@ -1,0 +1,42 @@
+header {
+    background-color: #F56600;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    float: right;
+    padding-right: 10px;
+    color: #522D80;
+    background-color: #F56600;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
