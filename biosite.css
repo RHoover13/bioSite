@@ -5,9 +5,54 @@ header {
     padding: 20px;
 }
 
+#lh-image {
+    max-height: 170px;
+    max-width: 170px;
+    float: left;
+}
+
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
+}
+
+#main-content {
+    width: 50%;
+    font-family: 'Tangerine', cursive;
+    font-size: medium;
+}
+
+#main-photo {
+    width: 50%;
+    float: right;
+    max-height: 600px;
+    max-width: 400px;
+    padding-top: 0;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #F56600;
+    border-bottom: 15px solid #522D80;
+    color: white;
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-buttons {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #522D80;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: right;
 }
 
 footer {
@@ -21,6 +66,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    border-top: 15px solid #522D80;
 }
 
 footer p {
